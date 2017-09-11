@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
-
 import Row from "@mulesoft/anypoint-components/lib/Row";
 import Column from "@mulesoft/anypoint-components/lib/Column";
+import styles from './Card.css';
 
 class Card extends PureComponent {
   render() {
     return (
-      <Column style={{ width: 300, flex: "none" }}>
+      <Column className={styles.wrapper} style={{ width: 300, flex: "none" }}>
         <Row
           style={{
             boxSizing: "border-box",
