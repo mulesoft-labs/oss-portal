@@ -1,0 +1,45 @@
+.title {
+    margin: 0px;
+    place-content: center center;
+    align-items: center;
+    display: flex;
+    height: 8.5em;
+}
+
+.wrapper {
+    width: 15.5em; 
+    flex: none!important;
+}
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap!important;
+    place-content: center center!important;
+    align-items: center!important;
+    overflow: visible;
+    background-color: #eee;
+    width: 100%;
+    height: 5em;
+}
+
+.logo {
+    background-color: rgb(221, 221, 221);
+    width: 4.375em;
+    height: 4.375em;
+    margin-top: 4.6875em;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.body-wrapper {
+    width: 100%;
+}
+
+.project-wrapper {
+    background-color: #fafafa;
+    width: 100%;
+    height: 12.5em;
+    padding: 1.25em;
+    padding-top: 2.1875em;
+}

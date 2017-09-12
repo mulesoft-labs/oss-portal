@@ -4,12 +4,14 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import '../styles/styles.css'
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#00A2DF',
       marginBottom: '1.45rem',
+      placeContent: 'center center'
     }}
   >
     <div
@@ -19,15 +21,16 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 className="title" >
         <Link
           to="/"
           style={{
             color: 'white',
             textDecoration: 'none',
+            font: 'Ubuntu'
           }}
         >
-          Gatsby
+          MuleSoft
         </Link>
       </h1>
     </div>

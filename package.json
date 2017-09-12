@@ -8,7 +8,9 @@
     "gatsby": "^1.9.17",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-postcss-sass": "^1.0.12",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0"
   },
   "keywords": [
     "gatsby"

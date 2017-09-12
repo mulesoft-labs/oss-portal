@@ -5,7 +5,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`, 
     {
-      resolve: `gatsby-plugin-postcss-sass`
-    }
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          require('postcss-cssnext'),
+        ]
+      }
+    },
   ]
 }

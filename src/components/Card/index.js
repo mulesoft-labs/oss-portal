@@ -1,39 +1,21 @@
 import React, { PureComponent } from "react";
 import Row from "@mulesoft/anypoint-components/lib/Row";
 import Column from "@mulesoft/anypoint-components/lib/Column";
-import styles from './Card.css';
 
 class Card extends PureComponent {
   render() {
     return (
-      <Column className={styles.wrapper} style={{ width: 300, flex: "none" }}>
+      <Column className="wrapper">
         <Row
-          style={{
-            boxSizing: "border-box",
-            display: "flex",
-            flexFlow: "row nowrap",
-            placeContent: "center center",
-            alignItems: "center",
-            overflow: "visible",
-            backgroundColor: "#eee",
-            width: "100%",
-            height: "80px"
-          }}
+          className="header"
         >
           <div
-            style={{
-              backgroundColor: "rgb(221, 221, 221)",
-              width: "70px",
-              height: "70px",
-              marginTop: "75px",
-              borderRadius: "100%",
-              zIndex: 10
-            }}
+            className="logo"
           />
         </Row>
-        <Row style={{ width: "100%" }}>
+        <Row className="body-wrapper">
           <div
-            style={{ backgroundColor: "#fafafa", width: "100%", height: 200, padding: 20, paddingTop: 35 }}
+            className="project-wrapper"
           >
             <div style={{ backgroundColor: "#ccc", width: '25%', height: 20, marginBottom: 15 }} />
             <div style={{ backgroundColor: "#ddd", width: '75%', height: 14, marginBottom: 5 }} />
