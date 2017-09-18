@@ -1,0 +1,32 @@
+[
+    {
+        "name": "my project",
+        "technology": "React",
+        "image": "esta"
+    },
+    {
+        "name": "my project 2",
+        "technology": "React",
+        "image": "esta"
+    },
+    {
+        "name": "my project 3",
+        "technology": "React",
+        "image": "esta"
+    },
+    {
+        "name": "my project 4",
+        "technology": "React",
+        "image": "esta"
+    },
+    {
+        "name": "my project 5",
+        "technology": "React",
+        "image": "esta"
+    },
+    {
+        "name": "my project 6",
+        "technology": "React",
+        "image": "esta"
+    }
+]
