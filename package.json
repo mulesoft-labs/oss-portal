@@ -5,12 +5,12 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@mulesoft/anypoint-components": "^2.126.9",
-    "gatsby": "^1.9.17",
+    "gatsby": "^2.13.79",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-postcss-sass": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^10.0.0"
+    "postcss-import": "^9.0.0"
   },
   "keywords": [
     "gatsby"
